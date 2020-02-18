@@ -1,0 +1,22 @@
+{
+  "database_service": "postgresql",
+  "postgresql": {
+    "user": "placeholder_database_user_id",
+    "password":"placeholder_database_password",
+    "host": "placeholder_hostname_for_postgresql_instance",
+    "port": 28123,
+    "clusterID": "placeholder_cluster_id_from_database_overview_page",
+    "database":"secure-file-storage-metadata"
+  },
+  "cloud_object_storage": {
+    "endpoint": "s3.us-south.cloud-object-storage.appdomain.cloud",
+    "ibmAuthEndpoint": "https://iam.cloud.ibm.com/identity/token",
+    "bucket_name": "placeholder_secure-file-upload"
+  },
+  "appid": {
+    "redirect_uri": "placeholder_http_or_https_and_host_address_for_this_app>/appid_callback"
+  },
+  "express": {
+    "session_secret": "1234152"
+  }
+}

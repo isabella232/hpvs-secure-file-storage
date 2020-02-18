@@ -1,0 +1,22 @@
+{
+  "database_service": "mongodb",
+  "mongodb": {
+    "user": "placeholder_database_user_id",
+    "password":"placeholder_database_password",
+    "hosts": "placeholder_comma_separated_list_of_hosts_with_port",
+    "replicaSet": "placeholder_your_database_replica_set",
+    "clusterID": "placeholder_cluster_id_from_database_overview_page",
+    "database":"secure-file-storage-metadata"
+  },
+  "cloud_object_storage": {
+    "endpoint": "s3.us-south.cloud-object-storage.appdomain.cloud",
+    "ibmAuthEndpoint": "https://iam.cloud.ibm.com/identity/token",
+    "bucket_name": "placeholder_secure-file-upload"
+  },
+  "appid": {
+    "redirect_uri": "placeholder_http_or_https_and_host_address_for_this_app>/appid_callback"
+  },
+  "express": {
+    "session_secret": "1234152"
+  }
+}
