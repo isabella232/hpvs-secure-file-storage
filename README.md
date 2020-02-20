@@ -61,6 +61,8 @@ In order to add Hyper Protect Crypto Services encryption to your data stored in 
 
 ## Configure for the application
 
+> The application is initially not configured for HTTPS, this exercise if left to you as you can either configure Node.js with your own SSL certificate, or as described further below, deploy Cloud Internet Services or your own proxy. 
+
 1. In the [Resource List](https://cloud.ibm.com/resources) click on the previously created Hyper Protect Virtual Server instance.
    * Click on the **Manage** tab and capture the **Public IP address** for your instance.
 
@@ -167,6 +169,8 @@ IBM Cloud services featured:
 
   - [Cloud Internet Service](https://cloud.ibm.com/catalog/services/internet-services)(optional): Cloud Internet Services (CIS) provides reliability, performance, and security for Internet facing applications, websites, and services using Cloudflare's 165+ Global Points of Presence (PoPs). It includes Domain Name Service (DNS), Global Load Balancer (GLB), Distributed Denial of Service (DDoS) protection, Web Application Firewall (WAF), Transport Layer Security (TLS), Rate Limiting, Smart Routing, and Caching. If deploying the application across multiple availability zones, you can add CIS to load balance the traffic.
 
+    The following deployment example includes CIS in front of 1 or more HP-VS instance acting as a GLB.
+    
       ![Architecture-mzr](docs/images/Architecture-mzr.png)
 
 
