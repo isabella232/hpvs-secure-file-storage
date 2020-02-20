@@ -170,11 +170,15 @@ IBM Cloud services featured:
   - [Cloud Internet Service](https://cloud.ibm.com/catalog/services/internet-services)(optional): Cloud Internet Services (CIS) provides reliability, performance, and security for Internet facing applications, websites, and services using Cloudflare's 165+ Global Points of Presence (PoPs). It includes Domain Name Service (DNS), Global Load Balancer (GLB), Distributed Denial of Service (DDoS) protection, Web Application Firewall (WAF), Transport Layer Security (TLS), Rate Limiting, Smart Routing, and Caching. If deploying the application across multiple availability zones, you can add CIS to load balance the traffic.
 
     The following deployment example includes CIS in front of 1 or more HP-VS instance acting as a GLB.
-    
+
       ![Architecture-mzr](docs/images/Architecture-mzr.png)
 
 
   <!-- - [IBM Log Analysis with LogDNA](https://cloud.ibm.com/observe/logging)(optional): IBM Log Analysis with LogDNA offers administrators, DevOps teams, and developers advanced features to filter, search, and tail log data, define alerts, and design custom views to monitor application and system logs. -->
+
+## Related Content
+
+Tutorial: [How to apply end-to-end security to a cloud application](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-cloud-e2e-security). 
 
 ## License
 
